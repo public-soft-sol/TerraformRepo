@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "xxxxxxxxxxxx"
-  secret_key = "xxxxxxxxxxxxxxxx"
 }
 
 terraform {
@@ -9,8 +7,6 @@ terraform {
     bucket = "terraform2023"
     key = "suman/myproject"
     region = "ap-south-1"
-    access_key ="xxxxxxxxxxx"
-    secret_key = "xxxxxxxxxxxxxxxxxxxxxxx"
     dynamodb_table = "sumandbtable"
   }
 }
